@@ -5,7 +5,7 @@ import { IoMenu, IoClose } from "react-icons/io5";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="flex bg-[#F5F7FA] px-2 lg:px-10 xl:px-[105px] justify-between items-center py-3 shadow-md shadow-black">
+    <div className="flex bg-[#F5F7FA] px-2 lg:px-10 xl:px-[105px] justify-between items-center py-3">
       <div className="w-[156px] h-[24px]">
         <img src={Navlogo} alt="logo" />
       </div>
@@ -66,7 +66,7 @@ const Navbar = () => {
           <a href="/faq">Faq</a>
         </li>
       </ul>
-      <div className="flex items-center gap-4 font-inter text-[14px] font-medium">
+      <div className="flex items-center gap-2 sm:gap-4 font-inter text-[14px] font-medium">
         <a href="/Login">
           <button className="px-2 sm:px-5 py-[10px] rounded-md hover:bg-[#e0e0e0] shadow-md">
             Login
@@ -81,13 +81,13 @@ const Navbar = () => {
           <IoClose
             size={24}
             onClick={() => setToggle(!toggle)}
-            className="lg:hidden mx-2"
+            className="lg:hidden sm:mx-2 bg-blue-900"
           />
         ) : (
           <IoMenu
             size={24}
             onClick={() => setToggle(!toggle)}
-            className="lg:hidden mx-2"
+            className="lg:hidden sm:mx-2"
           />
         )}
       </div>

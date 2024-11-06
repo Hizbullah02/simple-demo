@@ -25,7 +25,7 @@ const Community = () => {
   ];
 
   return (
-    <div className="px-10 md:px-4 lg:px-20 xl:px-[144px]">
+    <div className="px-4 lg:px-20 xl:px-[144px] mx-auto sm:mx-0">
       <div className="text-center mt-10">
         <h1 className="text-[#4D4D4D] text-[36px] font-inter font-bold">
           Manage your entire community <br />

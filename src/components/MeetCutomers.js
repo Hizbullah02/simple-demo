@@ -10,9 +10,9 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const MeetCutomers = () => {
   const images = [imag1, imag2, imag3, imag4, imag5, imag6];
   return (
-    <div className="px-10 xl:px-[144px] grid grid-cols-1 md:grid-cols-12 gap-4 mt-12 py-8 bg-[#F5F7FA]">
+    <div className="px-4 sm:px-10 xl:px-[144px] grid grid-cols-1 md:grid-cols-12 gap-4 mt-12 py-8 bg-[#F5F7FA]">
       {/* left-side */}
-      <div className="col-span-1 md:col-span-6 lg:col-span-4 w-[326px] mx-auto md:mx-0">
+      <div className="col-span-1 md:col-span-6 lg:col-span-4 sm:max-w-[326px] mx-auto md:mx-0">
         <img className="w-full" src={image} alt="meetCust" />
       </div>
       {/* right-side */}

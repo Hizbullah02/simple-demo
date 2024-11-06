@@ -23,7 +23,7 @@ const BlogIntro = () => {
   ];
 
   return (
-    <div className="lg:px-[144px] px-4 mt-8">
+    <div className="px-4 md:px-10 lg:px-[144px] mt-8">
       {/* text-section */}
       <div className="text-center">
         <h2 className="text-[#4D4D4D] text-[36px] font-bold">
@@ -42,8 +42,8 @@ const BlogIntro = () => {
           return (
             <div className="max-w-sm mx-auto my-0 sm:mb-0" key={key}>
               <img src={card.image} alt={`card-${key}`} className="mx-auto" />
-              <div className="relative -mt-20 mx-5 md:mx-3 text-center py-4 bg-[#F5F7FA]">
-                <p className="px-10 sm:px-3 md:px-2 xl:px-8 text-[20px] text-[#717171] font-inter">
+              <div className="relative -mt-20 mx-5 md:mx-3 text-center py-4 bg-[#F5F7FA] rounded-md">
+                <p className="px-2 sm:px-12 md:px-6 lg:px-5 xl:px-8 text-[20px] text-[#717171] font-inter">
                   {card.paragraph}
                 </p>
                 <button className="font-inter mt-3 text-[#4CAF4F] font-semibold text-[20px] shadow-[8px]">

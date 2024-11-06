@@ -2,7 +2,7 @@ import image from "../assets/images/experience.png";
 
 const Experience = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-12 ga-4 lg:gap-12 justify-between px-10 xl:px-[144px] items-center mx-0 pt-[42px]">
+    <div className="grid grid-cols-1 md:grid-cols-12 ga-4 lg:gap-12 justify-between px-4 sm:px-10 xl:px-[144px] items-center mx-0 pt-[42px]">
       <div className="col-span-1 md:col-span-6 lg:col-span-5 ">
         <img className="mx-auto md:mx-0" src={image} alt="exp" />
       </div>
