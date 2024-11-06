@@ -2,7 +2,7 @@ import heroimg from "../assets/images/hero.png";
 
 const Hero = () => {
   return (
-    <div className="bg-[#F5F7FA] px-8 lg:px-32 xl:px-[144px] md:flex justify-between py-24 ">
+    <div className="bg-[#F5F7FA] px-4 sm:px-8 lg:px-32 xl:px-[144px] md:flex justify-between py-24 ">
       {/* left side */}
       <div className="flex flex-col justify-center sm:items-center md:items-start font-semibold ">
         <h1 className="text-5xl md:text-[50px] xl:text-[64px] leading-[76px] text-[#4d4d4d]">
